@@ -1,0 +1,28 @@
+{
+    "name": "ducvc/multy",
+    "description": "test-application-2020",
+    "type": "laravel",
+    "authors": [
+        {
+            "name": "jan molen",
+            "email": "janmolden@gmas.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Icweb\\Trusty\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.1.3",
+        "santigarcor/laratrust": "6.1.*"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Icweb\\Trusty\\App\\Providers\\TrustyServiceProvider"
+            ],
+            "aliases": {}
+        }
+    }
+}
